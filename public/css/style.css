@@ -1,0 +1,240 @@
+body {
+	font-family: 'Hind', sans-serif;
+	color: #797878;
+	line-height: 1.65;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+#top-NavPart {
+	height: 49px; 
+	border-bottom: 1px solid #b5abab;
+	color: #ffffff;
+	background-color: #03a9f4;
+	padding:11px 0 5px;
+	position: relative;
+}
+
+#top-NavPart a {
+	color: white;
+	text-decoration: none;
+}
+
+#top-NavPart a:hover {
+	color: #03A9F4;
+	
+}
+
+.top-NavPart-contact {
+	font-size: 14px;
+	font-weight: bold;
+	word-wrap: break-word;
+	display: inline;
+}
+
+#smIconsDiv {
+	text-align: right;
+}
+
+#smIconsDiv .fa {
+	padding: 8px;
+	font-size: 15px;
+	width: 30px;
+	border-radius: 4px;
+	z-index: 9999;
+}
+
+
+#fbIcon:hover {
+	background-color: #3c599f;
+	color: white;
+}
+
+
+#ytIcon:hover {
+	background-color: #c52f30;
+	color: white;
+}
+
+#ig-Icon:hover {
+	background-color: #a1755c;
+	color: #FFFF;
+}
+
+#liIcon:hover {
+	background-color: #0085ae;
+	color: white;
+}
+
+#twIcon:hover {
+	background-color: #32ccfe;
+	color: white;
+}
+
+#websiteTitle {
+
+	color: #00aeef;
+}
+
+.active {
+	color: #00aeef !important;
+}
+
+.navbar-nav li a {
+	font-weight: 500;
+}
+
+.mainNav a {
+	color: #444;
+	padding: 0 15px 0 15px;
+}
+
+.mainNav a:hover {
+	color: #03A9F4;
+	opacity: 0.6;
+}
+
+/*Slider css*/
+
+#sliderFrame, #sliderFrame div {
+	box-sizing: content-box;
+}
+
+#sliderFrame {
+	width:100%;
+}
+
+#slider, #slider .sliderInner {
+	width:100%;
+	height:700px;/* Must be the same size as the slider images */
+	border-radius:3px;
+}
+
+#slider {
+	background-color:white;
+	position:relative;
+	margin:0 auto; /*center-aligned*/
+	transform: translate3d(0,0,0);
+}
+
+/* the link style (if an image is wrapped by a link) */
+#slider a.imgLink, #slider .video {
+	z-index:2;
+	cursor:pointer;
+	position:absolute;
+	top:0px;left:0px;border:0;padding:0;margin:0;
+	width:100%;height:100%;
+}
+#slider .video {
+	background:transparent url(video.png) no-repeat 50% 50%;
+}
+
+
+/* ------ built-in navigation bullets wrapper ------*/
+#slider .navBulletsWrapper  {
+	top:665px;
+	text-align:center;
+	background:none;
+	position:relative;
+	z-index:3;
+}
+
+/* each bullet */
+#slider .navBulletsWrapper div 
+{
+	width:11px; height:11px;
+	font-size:0;color:White;/*hide the index number in the bullet element*/
+	background:transparent url(bullet.png) no-repeat 0 0;
+	display:inline-block; *display:inline; zoom:1;
+	overflow:hidden;cursor:pointer;
+	margin:0 6px;/* set distance between each bullet*/
+}
+
+#slider .navBulletsWrapper .active {
+
+	background-position:0 -11px;
+	border: 3px solid black;
+	border-radius: 50%;
+	color: white;
+	background-color: white;
+}
+
+/* --------- Others ------- */
+
+#slider img, #slider>b, #slider a>b {
+	position:absolute; border:none; display:none;
+}
+
+#slider .sliderInner {
+	overflow:hidden;
+	position:absolute; top:0; left:0;
+}
+
+#slider>a, #slider video, #slider audio {display:none;}
+#slider div {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+
+/*End of slider css*/
+
+.strongholdContainer {
+	height: 182px;
+}
+
+#bluepartCol1 {
+	background-color: rgb(3, 169, 244);
+	height: 182px;
+}
+
+#bluepartCol2 {
+	background-color: rgb(8, 160, 228);
+	height: 182px;
+}
+
+#bluepartCol3 {
+	background-color: rgb(8, 147, 209);
+	height: 182px;
+}
+
+#bluepartImg1 {
+	width: 70px;
+	height: 55px;
+	margin-top: 20px;
+}
+
+#bluepartImg2 {
+	width: 40px;
+	height: 55px;
+	margin-top: 20px;
+}
+
+#bluepartImg3 {
+	width: 70px;
+	height: 55px;
+	margin-top: 20px;
+}
+
+.bluePartHeader {
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.bluePartParagraph {
+	font-size: 14px;
+	color: #FFF;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 1200px) {
+
+	#top-NavPart {
+		display: none;
+	}
+
+}
+
+
+
+
