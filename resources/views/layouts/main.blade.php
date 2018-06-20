@@ -17,8 +17,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <title>{{ config('app.name') }} - @yield('title')</title>
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/generic.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/font-awesome-4.7.0/css/font-awesome.min.css') }}">
     
 
@@ -94,7 +94,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </div>
 
                 <script src="{{ asset("js/app.js") }}"></script>
-                <script src="{{ asset("js/custom.js") }}"></script>
+                 <script src="{{ asset("js/js-image-slider.js") }}"></script>
                 @stack('scripts')
 
             </body>

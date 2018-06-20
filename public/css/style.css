@@ -8,6 +8,10 @@ body {
 	margin-top: 20px;
 }
 
+.mt-50 {
+	margin-top: 50px;
+}
+
 #top-NavPart {
 	height: 49px; 
 	border-bottom: 1px solid #b5abab;
@@ -224,6 +228,58 @@ body {
 	font-size: 14px;
 	color: #FFF;
 }
+
+#WelcomeContainerPic {
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#WelcomeContainerParagraph {
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.learnMoreBtn {
+	color: #FFF;
+	background-color: #03a9f4;
+	padding: 14px 20px;
+	font-size: 14px; 
+}
+
+#WelcomeContainerHeader {
+	color: black;
+}
+
+#whyNahassContainer {
+	background-color: #03a9f4;
+	height:100%;
+	margin-top: 100px;
+}
+
+#whyNahassHeaderRow {
+	color: white;
+	padding-top: 30px;
+}
+
+#reasonsRow img {
+	height: 50px;
+	width: 50px;
+}
+
+#reasonsRow {
+	color: white;
+}
+
+#reasonsRow h4 {
+	font-size: 16px;
+}
+
+#reasonsRow p {
+	font-size: 13px;
+}
+
+
 
 /*MEDIA QUERIES*/
 
