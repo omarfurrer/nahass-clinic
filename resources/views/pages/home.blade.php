@@ -97,7 +97,7 @@
 
 <!-- begining of welcome part -->
 <div class="container mt-50">
-	
+
 	<h3 class="text-center" id="WelcomeContainerHeader">Welcome to Al-Nahass Clinic</h3>
 	<p class="text-center">Changing Lives One Smile At A Time!</p>
 	<div class="row mt-50">
@@ -111,6 +111,60 @@
 	</div>
 </div>
 <!-- end of welcome part -->
+
+
+<!-- Begining of why Nahass part -->
+
+<div class="container-fluid" id="whyNahassContainer">
+	<div class="row">
+
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#fff" width="100%" height="60" viewBox="0 0 4.66666 0.333331" preserveAspectRatio="none" style="height: 60px; fill: #FFF"><path class="fil1" d="M4.66666 0l0 7.87402e-006 -3.93701e-006 0c0,0.0920315 -1.04489,0.166665 -2.33333,0.166665 -1.28844,0 -2.33333,-0.0746339 -2.33333,-0.166665l-3.93701e-006 0 0 -7.87402e-006 4.66666 0z"></path></svg>
+	</div>
+
+	<div class="row text-center" id="whyNahassHeaderRow">
+		<div class="col-md-12">
+			<h3>Why Al-Nahass Clinic</h3>
+			<p>Let us brighten your smile!</p>
+			<div class="whiteLine">
+			</div>
+		</div>
+	</div>
+
+	<div class="row" id="reasonsRow">
+
+		<div class="col-md-3 text-center">
+			<img src="images/certificate.png" id="certificateImg">
+			<h4 class="mt-20">Highly trained dental team</h4>
+			<p>our multi-disciplinary team collaborate together to make treatment recommendations that facilitate quality patient care</p>
+		</div>
+
+		<div class="col-md-3 text-center">
+			<img src="images/dentalServices.png" id="certificateImg">
+			<h4 class="mt-20">Extensive line of dental services</h4>
+			<p>Our Dental services provide high quality operation to all what your white smile needs</p>
+		</div>
+
+		<div class="col-md-3 text-center">
+			<img src="images/AdvancedTech.png" id="certificateImg">
+			<h4 class="mt-20">Advanced dental treatment facilities and equipment</h4>
+			<p>Our Equipment and material we use in our services is the latest technology provide in dental treatment</p>
+		</div>
+
+		<div class="col-md-3 text-center">
+			<img src="images/teathwhitening.png" id="certificateImg">
+			<h4 class="mt-20">Guaranteed results and brighter smiles</h4>
+			<p>Our team and equipment will guaranty the result you are seeking and will give you the smile you dream to have</p>
+		</div>
+
+	</div>
+
+	<div class="row">
+		<svg class="uvc-x-large-circle" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#FFF" width="100%" height="60" viewBox="0 0 4.66666 0.333331" preserveAspectRatio="none" style="height: 60px; transform: rotate(180deg);"><path class="fil1" d="M4.66666 0l0 7.87402e-006 -3.93701e-006 0c0,0.0920315 -1.04489,0.166665 -2.33333,0.166665 -1.28844,0 -2.33333,-0.0746339 -2.33333,-0.166665l-3.93701e-006 0 0 -7.87402e-006 4.66666 0z"></path></svg>
+	</div>
+
+</div>	
+
+<!-- End of why Nahass container -->
 
 
 @endsection
