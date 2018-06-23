@@ -27,7 +27,7 @@
 				<div class="carousel-item">
 					<img class="d-block w-100" src="images/slider-005.jpg" alt="Second slide">
 					<div class="carousel-caption container carouselBox">
-						
+
 						<h5>Al-Nahass Clinic. Changing lives one smile at a time</h5>
 						<div class="carouselBoxLine">
 						</div> 
@@ -39,7 +39,7 @@
 				<div class="carousel-item">
 					<img class="d-block w-100" src="images/slider-006.jpg" alt="Third slide">
 					<div class="carousel-caption container carouselBox">
-						
+
 						<h5>Al-Nahass Clinic. Changing lives one smile at a time</h5>
 						<div class="carouselBoxLine">
 						</div> 
@@ -94,6 +94,23 @@
 	</div>
 </div>
 <!-- End of Stronghold Container -->
+
+<!-- begining of welcome part -->
+<div class="container mt-50">
+	
+	<h3 class="text-center" id="WelcomeContainerHeader">Welcome to Al-Nahass Clinic</h3>
+	<p class="text-center">Changing Lives One Smile At A Time!</p>
+	<div class="row mt-50">
+		<div class="col-md-6">
+			<img src="images/home-001.jpg" id="WelcomeContainerPic">
+		</div>  
+		<div class="col-md-6">
+			<p id="WelcomeContainerParagraph">With our specialties as well as general dentistry available in the one location, our multi-disciplinary team collaborate together to make treatment recommendations that facilitate quality patient care. Seamless integration of all systems and practice within the centre enables each specialist to have instant access to treatment plans, laboratory results, 3D imagery and patient files, allowing for an evidence based best practice model of operation.</p>
+			<button class="btn learnMoreBtn">Learn More</button>
+		</div>  
+	</div>
+</div>
+<!-- end of welcome part -->
 
 
 @endsection
