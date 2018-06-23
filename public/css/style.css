@@ -1,8 +1,12 @@
+
+
 body {
 	font-family: 'Hind', sans-serif;
 	color: #797878;
 	line-height: 1.65;
 }
+
+/*Custom style classes*/
 
 .mt-20 {
 	margin-top: 20px;
@@ -11,6 +15,8 @@ body {
 .mt-50 {
 	margin-top: 50px;
 }
+
+/*top nav styles*/
 
 #top-NavPart {
 	height: 49px; 
@@ -24,6 +30,11 @@ body {
 #top-NavPart a {
 	color: white;
 	text-decoration: none;
+}
+
+#top-NavPartRow p {
+	margin-bottom: 0px;
+	margin-top: 5px;
 }
 
 #top-NavPart a:hover {
@@ -40,6 +51,7 @@ body {
 
 #smIconsDiv {
 	text-align: right;
+	margin-top: -2px;
 }
 
 #smIconsDiv .fa {
@@ -51,29 +63,29 @@ body {
 }
 
 
-#fbIcon:hover {
-	background-color: #3c599f;
+.fbIcon:hover {
+	background-color: #3c599f !important;
 	color: white;
 }
 
 
-#ytIcon:hover {
-	background-color: #c52f30;
+.ytIcon:hover {
+	background-color: #c52f30 !important;
 	color: white;
 }
 
-#ig-Icon:hover {
-	background-color: #a1755c;
+.ig-icon:hover {
+	background-color: #a1755c !important;
 	color: #FFFF;
 }
 
-#liIcon:hover {
-	background-color: #0085ae;
+.liIcon:hover {
+	background-color: #0085ae !important;
 	color: white;
 }
 
-#twIcon:hover {
-	background-color: #32ccfe;
+.twIcon:hover {
+	background-color: #32ccfe !important;
 	color: white;
 }
 
@@ -82,7 +94,7 @@ body {
 	color: #00aeef;
 }
 
-.active {
+.navbar .active {
 	color: #00aeef !important;
 }
 
@@ -100,90 +112,89 @@ body {
 	opacity: 0.6;
 }
 
-/*Slider css*/
-
-#sliderFrame, #sliderFrame div {
-	box-sizing: content-box;
+#mobileOnly {
+	display: none;
+	background-color: #f6f6f6;
 }
 
-#sliderFrame {
-	width:100%;
+#mobileOnly h5 {
+	padding: 10px;
+	font-size: 15px;
+	color: black;
 }
 
-#slider, #slider .sliderInner {
-	width:100%;
-	height:700px;/* Must be the same size as the slider images */
-	border-radius:3px;
+#mobileOnly p {
+	font-size: 10px;
+	margin-left: 15px;
 }
 
-#slider {
-	background-color:white;
-	position:relative;
-	margin:0 auto; /*center-aligned*/
-	transform: translate3d(0,0,0);
+#mobileOnly a {
+	color: #797878;
 }
 
-/* the link style (if an image is wrapped by a link) */
-#slider a.imgLink, #slider .video {
-	z-index:2;
-	cursor:pointer;
-	position:absolute;
-	top:0px;left:0px;border:0;padding:0;margin:0;
-	width:100%;height:100%;
-}
-#slider .video {
-	background:transparent url(video.png) no-repeat 50% 50%;
+#mobileOnly .fa {
+	color: #03A9F4;
 }
 
-
-/* ------ built-in navigation bullets wrapper ------*/
-#slider .navBulletsWrapper  {
-	top:665px;
-	text-align:center;
-	background:none;
-	position:relative;
-	z-index:3;
+/*Slider css styles*/
+.carouselBox {
+	z-index: 5;
+	background-color: rgba(0, 0, 0, 0.6);
+	text-align: left;
+	line-height: 23px;
+	margin-bottom: 230px; 
+	left: -13%;
+	font-weight: 400;
+	font-size: 14px;
+	min-height: 338px;
+	min-width: 654px;
+	max-height: 338px;
+	max-width: 654px;
 }
 
-/* each bullet */
-#slider .navBulletsWrapper div 
-{
-	width:11px; height:11px;
-	font-size:0;color:White;/*hide the index number in the bullet element*/
-	background:transparent url(bullet.png) no-repeat 0 0;
-	display:inline-block; *display:inline; zoom:1;
-	overflow:hidden;cursor:pointer;
-	margin:0 6px;/* set distance between each bullet*/
+.carouselBox h5 {
+	font-size: 18px;
+	margin-left: 10px;
+	color: #FFF;
+	
 }
 
-#slider .navBulletsWrapper .active {
-
-	background-position:0 -11px;
-	border: 3px solid black;
-	border-radius: 50%;
-	color: white;
-	background-color: white;
+.carouselBox p {
+	font-size: 16px;
+	margin-left: 10px;
+	color: #FFF;
+	
 }
 
-/* --------- Others ------- */
+.carouselBox h1 {
+	margin-left: 10px;
+	color: #FFF;
+	font-weight: bolder;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
-#slider img, #slider>b, #slider a>b {
-	position:absolute; border:none; display:none;
 }
 
-#slider .sliderInner {
-	overflow:hidden;
-	position:absolute; top:0; left:0;
+.carouselBox button {
+	margin-left: 10px;
+	color: #FFF;
+	background-color: #03A9F4;
+	padding: 11px;
+	border-radius: 0; 	
 }
 
-#slider>a, #slider video, #slider audio {display:none;}
-#slider div {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+.carouselBoxLine {
+	border-bottom: 5px solid #03A9F4;
+	width: 170px;
+	text-align: left;
+	margin-left: 10px;
+}
+
 
 /*End of slider css*/
 
-.strongholdContainer {
-	height: 182px;
-}
+
+/*Blue Stronghold Container styles */
 
 #bluepartCol1 {
 	background-color: rgb(3, 169, 244);
@@ -229,15 +240,17 @@ body {
 	color: #FFF;
 }
 
+/*Welcome Container Styles*/
+
 #WelcomeContainerPic {
 	width: 100%;
-	height: 100%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #WelcomeContainerParagraph {
 	line-height: 1.5;
 	text-align: justify;
+	margin-top: 20px;
 }
 
 .learnMoreBtn {
@@ -251,6 +264,8 @@ body {
 	color: black;
 }
 
+/*Why nahass container styles*/
+
 #whyNahassContainer {
 	background-color: #03a9f4;
 	height:100%;
@@ -261,6 +276,12 @@ body {
 	color: white;
 	padding-top: 30px;
 }
+
+#reasonsRow img:hover {
+	width: 70px;
+	height: 70px;
+}
+
 
 #reasonsRow img {
 	height: 50px;
@@ -279,6 +300,232 @@ body {
 	font-size: 13px;
 }
 
+.whiteLine {
+	width: 60px;
+	border-bottom: 3px solid #FFF;
+	margin: 0px auto;
+}
+
+/*Services Container styles*/
+
+#ourServicesHeaderRow h3 {
+	color: black;
+}
+
+
+#ourServicesHeaderRow p  {
+	color: #797878;
+}
+
+.blueLine {
+	width: 60px;
+	border-bottom: 3px solid rgb(3, 169, 244);
+	margin: 0px auto;
+}
+
+.serviceBox {
+	color: white;
+	margin-top: 40px;
+	max-width: 100%;
+	height: 258px;
+}
+
+.bgImg1 {
+	background:linear-gradient( rgba(3, 169, 244, 0.8) 100%, 
+		rgba(3, 169, 244, 0.8)100% ),
+	url("images/dental-filling.jpg");
+	cursor: pointer;
+}
+
+.serviceBox:hover {
+	transform: translateY(-20px);
+} 
+
+.bgImg2 {
+	background:linear-gradient( rgba(3, 169, 244, 0.8) 100%, 
+		rgba(3, 169, 244, 0.8)100% ),
+	url("images/Orthodontics-002.jpg") center center no-repeat;
+	cursor: pointer;
+}
+
+.bgImg3 {
+	background:linear-gradient( rgba(3, 169, 244, 0.8) 100%, 
+		rgba(3, 169, 244, 0.8)100% ),
+	url("images/tooth-extraction.jpg");
+	cursor: pointer;
+}
+
+.bgImg4 {
+	background:linear-gradient( rgba(3, 169, 244, 0.8) 100%, 
+		rgba(3, 169, 244, 0.8)100% ),
+	url("images/root-canal.jpg") center center no-repeat;
+	cursor: pointer;
+}
+
+.bgImg5{
+	background:linear-gradient( rgba(3, 169, 244, 0.8) 100%, 
+		rgba(3, 169, 244, 0.8)100% ),
+	url("images/teeth-whitening.jpg") center center no-repeat;
+	cursor: pointer;
+}
+
+.bgImg6 {
+	background:linear-gradient( rgba(3, 169, 244, 0.8) 100%, 
+		rgba(3, 169, 244, 0.8)100% ),
+	url("images/Routine-Dental002-1.jpg") center center no-repeat;
+	cursor: pointer;
+}
+
+.serviceBox h3 {
+	font-size: 21px;
+}
+
+.serviceBox p {
+	font-size: 14px;
+	width: 320px;
+	text-align: center;
+	padding-left: 20px;
+	line-height: 1.5;
+	cursor: pointer;
+}
+
+.serviceBoxImg1 {
+	height: 50%;
+}
+
+.serviceBoxImg2 {
+	height: 50%;
+	width: 30%;
+}
+
+.serviceBoxImg3 {
+	height: 50%;
+	padding-bottom: 16px;
+	padding-top: 5px;
+
+}
+
+.serviceBoxImg4 {
+	height: 50%;
+	padding-top: 5px;
+}
+
+.serviceBoxImg5 {
+	height: 50%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/*Testimonials Container Styles*/
+
+#testiContainer {
+	background: url(images/slide1-2.jpg); 
+	background-position: 50% 50%;
+	margin-top: 30px;
+	background-position: 50% 5px;
+	opacity: 1;
+	background-attachment: scroll;
+	object-fit: cover;
+
+}
+
+#testiHeaderRow {
+	color: white;
+	padding-bottom: 20px;
+}
+
+.testiImg {
+	border-radius: 50%;
+}
+
+#carouselExampleControls {
+	color: white;
+}
+
+#testiContainer .carousel-indicators {
+	bottom: -100px;
+}
+
+#svgRow {
+	margin-top: 140px;
+}
+
+/*our Dentists container styles*/
+
+.cardBody {
+	background-color: #f6f6f6;
+}
+
+.cardSize{
+	width: 22rem;
+}
+
+.cardText {
+	color: #03A9F4;
+	font-size: 20px;
+}
+
+.cardTitle {
+	color: #222;
+}
+
+
+/*Blue Container Styles*/
+
+.blueContainer {
+	background-color: #03a9f4 !important;
+	color: #FFF;
+}
+
+.blueContainer h4 {
+	padding-top: 20px;
+}
+
+.blueContainer p {
+	padding-bottom: 20px;
+}
+
+.blueContainer button {
+	margin-bottom: 40px;
+	padding: 0.8rem;
+	background-color: #FFF;
+}
+
+/*Footer Container Styles*/
+
+.footer h4 {
+	border-bottom: 1px solid black;
+	color: black;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+
+.footer .fa {
+	color: #03A9F4;
+}
+
+.footerPs {
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.footerSm .fa {
+	padding: 8px;
+	font-size: 20px;
+	width: 40px;
+	background-color:#03A9F4 ;
+	color:#FFF ;
+	border-radius: 2px;
+	text-align: center;
+	margin:3px;
+}
+
+/*Copyright container styles*/
+.copyrightContainer {
+	background-color: #f5f5f5;
+	padding: 20px; 
+	font-size: 14px;
+}
 
 
 /*MEDIA QUERIES*/
@@ -287,6 +534,10 @@ body {
 
 	#top-NavPart {
 		display: none;
+	}
+
+	#mobileOnly {
+		display: block;
 	}
 
 }
