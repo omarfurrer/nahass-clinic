@@ -381,6 +381,18 @@
 </div>
 <!-- End of Our Dentists part -->
 
+<!-- Begining of Blue CTA part -->
+<div class="container-fluid blueContainer mt-50">
+	<div class="row text-center">
+		<div class="col-md-12">
+			<h4>Make your #dream_smile a reality!</h4>
+			<p><small>Call us or book an appointment today!</small></p>
+			<button class="btn">Book an appointment</button>
+
+		</div>
+	</div>
+</div>
+<!-- End of Blue CTA part -->
 
 
 @endsection
