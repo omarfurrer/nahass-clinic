@@ -334,7 +334,7 @@ body {
 .bgImg1 {
 	background:linear-gradient( rgba(3, 169, 244, 0.8) 100%, 
 		rgba(3, 169, 244, 0.8)100% ),
-	url("images/dental-filling.jpg");
+	url("../images/dental-filling.jpg");
 	cursor: pointer;
 }
 
@@ -345,35 +345,35 @@ body {
 .bgImg2 {
 	background:linear-gradient( rgba(3, 169, 244, 0.8) 100%, 
 		rgba(3, 169, 244, 0.8)100% ),
-	url("images/Orthodontics-002.jpg") center center no-repeat;
+	url("../images/Orthodontics-002.jpg") center center no-repeat;
 	cursor: pointer;
 }
 
 .bgImg3 {
 	background:linear-gradient( rgba(3, 169, 244, 0.8) 100%, 
 		rgba(3, 169, 244, 0.8)100% ),
-	url("images/tooth-extraction.jpg");
+	url("../images/tooth-extraction.jpg");
 	cursor: pointer;
 }
 
 .bgImg4 {
 	background:linear-gradient( rgba(3, 169, 244, 0.8) 100%, 
 		rgba(3, 169, 244, 0.8)100% ),
-	url("images/root-canal.jpg") center center no-repeat;
+	url("../images/root-canal.jpg") center center no-repeat;
 	cursor: pointer;
 }
 
 .bgImg5{
 	background:linear-gradient( rgba(3, 169, 244, 0.8) 100%, 
 		rgba(3, 169, 244, 0.8)100% ),
-	url("images/teeth-whitening.jpg") center center no-repeat;
+	url("../images/teeth-whitening.jpg") center center no-repeat;
 	cursor: pointer;
 }
 
 .bgImg6 {
 	background:linear-gradient( rgba(3, 169, 244, 0.8) 100%, 
 		rgba(3, 169, 244, 0.8)100% ),
-	url("images/Routine-Dental002-1.jpg") center center no-repeat;
+	url("../images/Routine-Dental002-1.jpg") center center no-repeat;
 	cursor: pointer;
 }
 
@@ -420,7 +420,7 @@ body {
 /*Testimonials Container Styles*/
 
 #testiContainer {
-	background: url(images/slide1-2.jpg); 
+	background: url(../images/slide1-2.jpg); 
 	background-position: 50% 50%;
 	margin-top: 30px;
 	background-position: 50% 5px;
@@ -521,7 +521,7 @@ body {
 
 /*Copyright container styles*/
 .copyrightContainer {
-	background-color: #f5f5f5;
+	background-color: #ebebebaa;
 	padding: 20px; 
 	font-size: 14px;
 }

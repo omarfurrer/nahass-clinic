@@ -154,7 +154,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="container copyrightContainer">
                     <div class="row">
                         <div class="col-md-6 col-sm-12 col-xs-12">
-                            <span>Copyright © 2018 Al-Nahass Clinic. All Rights Reserved. Developed By 47-Flakes</span>
+                            <span>Copyright © 2018 Al-Nahass Clinic. All Rights Reserved. Developed By <b>47-Flakes</b></span>
                         </div>
                     </div>
                 </div>
