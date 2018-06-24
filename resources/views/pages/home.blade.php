@@ -339,5 +339,48 @@
 </div>
 <!-- End of Testimonials Div -->
 
+<!-- Begining of Our Dentists part -->
+<div class="container">
+	<div class="row text-center" id="ourServicesHeaderRow">
+		<div class="col-md-12">
+			<h3>Our Dental Team</h3>
+			<p>Professional and highly trained!</p>
+			<div class="blueLine">
+			</div>
+		</div>
+	</div>
+	<div class="row mt-20">
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="images/Dr.-Israa-Mohamed-Ibraheem-370x260.jpg" alt="Card image cap">
+				<div class="card-body text-center cardBody">
+					<h5 class="card-title cardTitle">Dr. Israa Mohamed Ibrahim</h5>
+					<p class="card-text cardText">Dental Specialist.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card cardSize">
+				<img class="card-img-top" src="images/Mr-Murat-Bulut-001-370x260.jpg" alt="Card image cap">
+				<div class="card-body text-center cardBody">
+					<h5 class="card-title cardTitle">Dr. Murat Bulut</h5>
+					<p class="card-text cardText">Dental Studio.</p>
+				</div>
+			</div>
+		</div> 
+		<div class="col-md-4">
+			<div class="card cardSize">
+				<img class="card-img-top" src="images/Dr-baraa-001-370x260.jpg" alt="Card image cap">
+				<div class="card-body text-center cardBody">
+					<h5 class="card-title cardTitle">Dr. Baraa Bourhani</h5>
+					<p class="card-text cardText">Dental Specialist.</p>
+				</div>
+			</div>
+		</div>   
+	</div>
+</div>
+<!-- End of Our Dentists part -->
+
+
 
 @endsection
