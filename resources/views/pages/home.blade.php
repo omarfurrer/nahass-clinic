@@ -244,5 +244,100 @@
 </div>
 <!-- End of Our Services Container -->
 
+<!-- Begining of Testimonials container -->
+<div class="container-fluid" id="testiContainer">
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+		</ol>
+		<div class="row">
+			<svg class="uvc-x-large-circle" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#FFF" width="100%" height="60" viewBox="0 0 4.66666 0.333331" preserveAspectRatio="none" style="height: 60px;"><path class="fil1" d="M4.66666 0l0 7.87402e-006 -3.93701e-006 0c0,0.0920315 -1.04489,0.166665 -2.33333,0.166665 -1.28844,0 -2.33333,-0.0746339 -2.33333,-0.166665l-3.93701e-006 0 0 -7.87402e-006 4.66666 0z"></path></svg> 
+		</div>
+		<div class="row text-center" id="testiHeaderRow">
+			<div class="col-md-12">
+				<h3>Testimonials</h3>
+				<p>What our patients say “From Our Facebook Page”
+				</p>
+				<div class="blueLine">
+				</div>
+			</div>
+		</div>
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h2>Dr Hany Al-Nahass is the best dentist I have dealt with. Thank you Dr</h2>									
+						</div>
+					</div>
+					<div class="row text-center mt-20">
+						<div class="col-md-12">
+							<img class="testiImg" src="images/ahmed-magdy-client-test002-80x80.jpg" alt="First slide">
+						</div>	
+					</div>	
+					<div class="row text-center mt-20">
+						<div class="col-md-12">
+							<h4>Ahmed Kamel</h4>
+							<p>Dental care patient</p>
+						</div>	
+					</div>	
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h2>Dr Hany Al-Nahass is the best dentist I have dealt with. Thank you Dr</h2>									
+						</div>
+					</div>
+					<div class="row text-center mt-20">
+						<div class="col-md-12">
+							<img class="testiImg" src="images/ahmed-magdy-client-test002-80x80.jpg" alt="First slide">
+						</div>	
+					</div>	
+					<div class="row text-center mt-20">
+						<div class="col-md-12">
+							<h4>Ahmed Kamel</h4>
+							<p>Dental care patient</p>
+						</div>	
+					</div>	
+				</div>		
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h2>Dr Hany Al-Nahass is the best dentist I have dealt with. Thank you Dr</h2>									
+						</div>
+					</div>
+					<div class="row text-center mt-20">
+						<div class="col-md-12">
+							<img class="testiImg" src="images/ahmed-magdy-client-test002-80x80.jpg" alt="First slide">
+						</div>	
+					</div>	
+					<div class="row text-center mt-20">
+						<div class="col-md-12">
+							<h4>Ahmed Kamel</h4>
+							<p>Dental care patient</p>
+						</div>	
+					</div>	
+				</div>									
+			</div>
+
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+	</div>
+	<div class="row" id="svgRow">
+		<svg class="uvc-x-large-circle" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#FFF" width="100%" height="60" viewBox="0 0 4.66666 0.333331" preserveAspectRatio="none" style="height: 60px; transform: rotate(180deg);"><path class="fil1" d="M4.66666 0l0 7.87402e-006 -3.93701e-006 0c0,0.0920315 -1.04489,0.166665 -2.33333,0.166665 -1.28844,0 -2.33333,-0.0746339 -2.33333,-0.166665l-3.93701e-006 0 0 -7.87402e-006 4.66666 0z"></path></svg> 
+	</div>
+</div>
+<!-- End of Testimonials Div -->
+
 
 @endsection
