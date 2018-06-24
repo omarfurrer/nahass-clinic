@@ -175,4 +175,74 @@
 <!-- End of why Nahass container -->
 
 
+<!-- Begining of Our Services Container -->
+<div class="container">
+
+	<div class="row text-center" id="ourServicesHeaderRow">
+		<div class="col-md-12">
+			<h3>Our Services</h3>
+			<p>Professional and highly trained!</p>
+			<div class="blueLine">
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+
+		<div class="col-sm-4">
+			<div class="serviceBox bgImg1 text-center">
+				<img class="serviceBoxImg1" src="images/dental-filling-icon.png">
+				<h3>Dental Fillings</h3>
+				<p>By closing off spaces where bacteria can enter, a filling also helps prevent further decay. Materials used for fillings include gold....</p>
+			</div> 
+		</div>
+
+		<div class="col-sm-4">
+			<div class="serviceBox bgImg2 text-center">
+				<img class="serviceBoxImg2" src="images/icon-ortho.png">
+				<h3>Orthodontics</h3>
+				<p>Orthodontics is the science of straightening teeth and correcting jaw alignment using appliances such as braces or removable plates....</p>
+			</div> 
+		</div>
+
+		<div class="col-sm-4">
+			<div class="serviceBox bgImg3 text-center">
+				<img class="serviceBoxImg3" src="images/tooth-extraction.png">
+				<h3>Tooth Extraction</h3>
+				<p>Tooth extraction is the removal of a tooth from its socket in the bone. If there's too much damage for the tooth to be repaired. In this case...</p>
+			</div> 
+		</div>
+	</div>
+
+	<div class="row">
+
+		<div class="col-sm-4">
+			<div class="serviceBox bgImg4 text-center">
+				<img class="serviceBoxImg3" src="images/rootcanal.png">
+				<h3>Root Canal Treatment</h3>
+				<p>During root canal or endodontic treatment, the inflamed or infected pulp is removed and the inside of the tooth is carefully cleaned and disinfected...</p>
+			</div> 
+		</div>
+
+		<div class="col-sm-4">
+			<div class="serviceBox bgImg5 text-center">
+				<img class="serviceBoxImg4" src="images/teathwhitening.png">
+				<h3>Teeth Whitening</h3>
+				<p>Tooth whitening lightens teeth and helps to remove stains and discoloration. Whitening is among the most popular cosmetic dental...</p>
+			</div> 
+		</div>
+
+		<div class="col-sm-4">
+			<div class="serviceBox bgImg6 text-center">
+				<img class="serviceBoxImg5" src="images/routinechecks.png">
+				<h3>Dental Fillings</h3>
+				<p>Even if you take excellent care of your teeth and gums at home, you still need to see a dentist regularly. Your dentist can check for problems...</p>
+			</div> 
+		</div>
+
+	</div>
+</div>
+<!-- End of Our Services Container -->
+
+
 @endsection
