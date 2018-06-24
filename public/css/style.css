@@ -138,58 +138,57 @@ body {
 
 /*Slider css styles*/
 .carouselBox {
+	margin-bottom: 12%;
+	margin-right: 29%;
 	z-index: 5;
 	background-color: rgba(0, 0, 0, 0.6);
 	text-align: left;
-	line-height: 23px;
-	margin-bottom: 230px; 
-	left: -13%;
-	font-weight: 400;
-	font-size: 14px;
-	min-height: 338px;
-	min-width: 654px;
-	max-height: 338px;
-	max-width: 654px;
+	max-width: 45%;
+	max-height: 70%;
 }
 
 .carouselBox h5 {
-	font-size: 18px;
-	margin-left: 10px;
-	color: #FFF;
-	
+	font-size: 20px;
+	color: #FFF;	
 }
 
 .carouselBox p {
-	font-size: 16px;
-	margin-left: 10px;
+	font-size: 18px;
 	color: #FFF;
-	
+	line-height: 1.5;
 }
 
 .carouselBox h1 {
-	margin-left: 10px;
+	font-size: 44px;
 	color: #FFF;
+	line-height: 1.5;
 	font-weight: bolder;
-	padding-top: 20px;
-	padding-bottom: 20px;
 
 }
 
 .carouselBox button {
-	margin-left: 10px;
 	color: #FFF;
 	background-color: #03A9F4;
-	padding: 11px;
-	border-radius: 0; 	
+	padding: 6px;
+	border-radius: 0;
+	font-size: 16px;
+	font-family: -webkit-pictograph;
+	width: 130px;	
 }
 
 .carouselBoxLine {
 	border-bottom: 5px solid #03A9F4;
-	width: 170px;
+	width: 160px;
 	text-align: left;
-	margin-left: 10px;
 }
 
+.indiBg {
+	background: black;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	padding: 15px;
+}
 
 /*End of slider css*/
 
@@ -278,8 +277,10 @@ body {
 }
 
 #reasonsRow img:hover {
-	width: 70px;
-	height: 70px;
+
+	-webkit-animation: bounce 1s;
+	animation: fadeIn 2s;
+
 }
 
 
@@ -456,9 +457,6 @@ body {
 	background-color: #f6f6f6;
 }
 
-.cardSize{
-	width: 22rem;
-}
 
 .cardText {
 	color: #03A9F4;
@@ -489,6 +487,7 @@ body {
 	margin-bottom: 40px;
 	padding: 0.8rem;
 	background-color: #FFF;
+	font-family: -webkit-pictograph;
 }
 
 /*Footer Container Styles*/
@@ -530,7 +529,9 @@ body {
 
 /*MEDIA QUERIES*/
 
-@media only screen and (max-width: 1200px) {
+
+/*Mobile Phones*/
+@media only screen and (min-width: 370px) and (max-width: 1200px) {
 
 	#top-NavPart {
 		display: none;
@@ -540,8 +541,178 @@ body {
 		display: block;
 	}
 
+	.carouselBox {
+		margin-bottom: 6%;
+		margin-right: 12%;
+		z-index: 5;
+		background-color: rgba(0, 0, 0, 0.6);
+		text-align: left;
+		max-height: 80%;
+		max-width: 60%;
+		
+	}
+
+	.carouselBox h5 {
+		font-size: 8px;
+		color: #FFF;	
+	}
+
+	.carouselBox p {
+		font-size: 5px;
+		color: #FFF;
+		line-height: 1.5;
+		padding-bottom: 5px;
+		margin-bottom: 0;
+	}
+
+	.carouselBox h1 {
+		font-size: 11px;
+		color: #FFF;
+		line-height: 1.5;
+		font-weight: bolder;
+
+	}
+
+	.carouselBox button {
+		color: #FFF;
+		background-color: #03A9F4;
+		padding: 3px;
+		border-radius: 0;
+		font-size: 8px;	
+	}
+
+	.carouselBoxLine {
+		border-bottom: 3px solid #03A9F4;
+		width: 50px;
+		text-align: left;
+	}
+
+	.indiBg {
+		background: black;
+		border-radius: 50%;
+		width: 30px;
+		height: 30px;
+		padding: 5px;
+	}
+
 }
 
 
+/*Iphone 5s (Smallest Screen)*/
 
+@media only screen and (min-width: 319px) and (max-width: 369px) {
 
+	#top-NavPart {
+		display: none;
+	}
+
+	#mobileOnly {
+		display: block;
+	}
+
+	.carouselBox {
+		margin-bottom: 4%;
+		margin-right: 12%;
+		z-index: 5;
+		background-color: rgba(0, 0, 0, 0.6);
+		text-align: left;
+		max-width: 60%;
+		max-height: 80%;
+	}
+
+	.carouselBox h5 {
+		font-size: 7px;
+		color: #FFF;	
+	}
+
+	.carouselBox p {
+		font-size: 5px;
+		color: #FFF;
+		line-height: 1.5;
+		padding-bottom: 5px;
+		margin-bottom: 0;
+	}
+
+	.carouselBox h1 {
+		font-size: 9px;
+		color: #FFF;
+		line-height: 1.5;
+		font-weight: bolder;
+
+	}
+
+	.carouselBoxLine {
+		border-bottom: 3px solid #03A9F4;
+		width: 50px;
+		text-align: left;
+	}
+
+	.carouselBox button {
+		color: #FFF;
+		background-color: #03A9F4;
+		padding: 0px;
+		border-radius: 0;
+		font-size: 11px;
+		font-family: -webkit-pictograph;
+		width: 80px;
+	}
+
+	.indiBg {
+		background: black;
+		border-radius: 50%;
+		width: 30px;
+		height: 30px;
+		padding: 5px;
+	}
+
+}
+
+/*Tablets and Ipads*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	.carouselBox {
+		margin-right: 23%;
+		z-index: 5;
+		background-color: rgba(0, 0, 0, 0.6);
+		text-align: left;
+		max-width: 50%;
+		
+	}
+
+	.carouselBox h5 {
+		font-size: 18px;
+		color: #FFF;	
+	}
+
+	.carouselBox p {
+		font-size: 13px;
+		color: #FFF;
+		line-height: 1.5;
+		padding-bottom: 5px;
+		margin-bottom: 0;
+	}
+
+	.carouselBox h1 {
+		font-size: 25px;
+		color: #FFF;
+		line-height: 1.5;
+		font-weight: bolder;
+
+	}
+
+	.carouselBox button {
+		color: #FFF;
+		background-color: #03A9F4;
+		padding: 3px;
+		border-radius: 0;
+		font-size: 15px;	
+	}
+
+	.carouselBoxLine {
+		border-bottom: 3px solid #03A9F4;
+		width: 150px;
+		text-align: left;
+	}
+
+}

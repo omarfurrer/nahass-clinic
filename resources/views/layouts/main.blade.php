@@ -19,13 +19,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
 </head>
 
 <body>
 
-   <!-- Begining of top navpart container -->
-   <div class="container-fluid" id="top-NavPart">
+ <!-- Begining of top navpart container -->
+ <div class="container-fluid" id="top-NavPart">
     <div class="container">
         <div class="row" id="top-NavPartRow">
 
@@ -46,11 +47,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         </div>
 
                         <div class="col-md-3 col-sm-3 col-xs-12" id="smIconsDiv">
-                            <a href="#"><i class="fa fa-facebook" id="fbIcon"></i></a>
-                            <a href="#"><i class="fa fa-youtube" id="ytIcon"></i></a>
-                            <a href="#"><i class="fa fa-instagram" id="ig-Icon"></i></a>
-                            <a href="#"><i class="fa fa-linkedin" id="liIcon"></i></a>
-                            <a href="#"><i class="fa fa-twitter" id="twIcon"></i></a>
+                            <a href="#"><i class="fa fa-facebook fbIcon"></i></a>
+                            <a href="#"><i class="fa fa-youtube ytIcon"></i></a>
+                            <a href="#"><i class="fa fa-instagram ig-icon"></i></a>
+                            <a href="#"><i class="fa fa-linkedin liIcon"></i></a>
+                            <a href="#"><i class="fa fa-twitter twIcon"></i></a>
                         </div>
                     </div>
                 </div>

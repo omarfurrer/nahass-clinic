@@ -3,19 +3,18 @@
 
 @section('content')
 <!-- Begining of Image Slider -->
-<div class="container-fluid">
-	<div class="row">
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img class="d-block w-100" src="images/slider-003.jpg" alt="First slide">
-					<div class="carousel-caption container carouselBox">
-
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img class="d-block w-100 animated rollIn" src="images/slider-003.jpg" alt="First slide">
+			<div class="carousel-caption container carouselBox animated fadeIn">
+				<div class="row">  
+					<div class="col-md-12 col-sm-12"> 
 						<h5>Al-Nahass Clinic. Changing lives one smile at a time</h5>
 						<div class="carouselBoxLine">
 						</div> 
@@ -24,10 +23,13 @@
 						<button class="btn">Learn More</button>
 					</div>
 				</div>
-				<div class="carousel-item">
-					<img class="d-block w-100" src="images/slider-005.jpg" alt="Second slide">
-					<div class="carousel-caption container carouselBox">
-
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img class="d-block w-100 animated rollIn" src="images/slider-005.jpg" alt="Second slide">
+			<div class="carousel-caption container carouselBox animated fadeIn">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
 						<h5>Al-Nahass Clinic. Changing lives one smile at a time</h5>
 						<div class="carouselBoxLine">
 						</div> 
@@ -36,31 +38,37 @@
 						<button class="btn">Learn More</button>
 					</div>
 				</div>
-				<div class="carousel-item">
-					<img class="d-block w-100" src="images/slider-006.jpg" alt="Third slide">
-					<div class="carousel-caption container carouselBox">
-
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img class="d-block w-100 animated rollIn" src="images/slider-006.jpg" alt="Third slide">
+			<div class="carousel-caption container carouselBox animated fadeIn">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
 						<h5>Al-Nahass Clinic. Changing lives one smile at a time</h5>
 						<div class="carouselBoxLine">
-						</div> 
+						</div> 									
 						<h1>Routine Dental Exams & Check-ups</h1>
 						<p>Keep your smile white and healthy by having the routine dental exams & check-ups. We provide best equipment and talented staff</p>
 						<button class="btn">Learn More</button>
 					</div>
 				</div>
 			</div>
-			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<div class="indiBg">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			</div>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<div class="indiBg">
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
-			</a>
-		</div>
+			</div>
+		</a>
 	</div>
 </div>
-
 <!-- End of Image Slider -->
 
 <!-- Begining of stronghold container -->
@@ -118,7 +126,7 @@
 <div class="container-fluid" id="whyNahassContainer">
 	<div class="row">
 
-		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#fff" width="100%" height="60" viewBox="0 0 4.66666 0.333331" preserveAspectRatio="none" style="height: 60px; fill: #FFF"><path class="fil1" d="M4.66666 0l0 7.87402e-006 -3.93701e-006 0c0,0.0920315 -1.04489,0.166665 -2.33333,0.166665 -1.28844,0 -2.33333,-0.0746339 -2.33333,-0.166665l-3.93701e-006 0 0 -7.87402e-006 4.66666 0z"></path></svg>
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#f6f6f6" width="100%" height="60" viewBox="0 0 4.66666 0.333331" preserveAspectRatio="none" style="height: 60px; fill: #f5f8fa"><path class="fil1" d="M4.66666 0l0 7.87402e-006 -3.93701e-006 0c0,0.0920315 -1.04489,0.166665 -2.33333,0.166665 -1.28844,0 -2.33333,-0.0746339 -2.33333,-0.166665l-3.93701e-006 0 0 -7.87402e-006 4.66666 0z"></path></svg>
 	</div>
 
 	<div class="row text-center" id="whyNahassHeaderRow">
@@ -130,7 +138,7 @@
 		</div>
 	</div>
 
-	<div class="row" id="reasonsRow">
+	<div class="row mt-20" id="reasonsRow">
 
 		<div class="col-md-3 text-center">
 			<img src="images/certificate.png" id="certificateImg">
@@ -159,7 +167,7 @@
 	</div>
 
 	<div class="row">
-		<svg class="uvc-x-large-circle" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#FFF" width="100%" height="60" viewBox="0 0 4.66666 0.333331" preserveAspectRatio="none" style="height: 60px; transform: rotate(180deg);"><path class="fil1" d="M4.66666 0l0 7.87402e-006 -3.93701e-006 0c0,0.0920315 -1.04489,0.166665 -2.33333,0.166665 -1.28844,0 -2.33333,-0.0746339 -2.33333,-0.166665l-3.93701e-006 0 0 -7.87402e-006 4.66666 0z"></path></svg>
+		<svg class="uvc-x-large-circle" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#f5f8fa" width="100%" height="60" viewBox="0 0 4.66666 0.333331" preserveAspectRatio="none" style="height: 60px; transform: rotate(180deg);"><path class="fil1" d="M4.66666 0l0 7.87402e-006 -3.93701e-006 0c0,0.0920315 -1.04489,0.166665 -2.33333,0.166665 -1.28844,0 -2.33333,-0.0746339 -2.33333,-0.166665l-3.93701e-006 0 0 -7.87402e-006 4.66666 0z"></path></svg>
 	</div>
 
 </div>	
