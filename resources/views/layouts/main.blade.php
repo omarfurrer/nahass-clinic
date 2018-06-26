@@ -73,7 +73,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url("/resources/views/pages/aboutUs.blade.php") }}">About Us</a>
+                                <a class="nav-link" href="{{ url("about-us") }}">About Us</a>
+
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Services</a>
@@ -164,8 +165,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
             <script src="{{ asset("js/app.js") }}"></script>
-            <script src="{{ asset("Counter-Up-master/jquery.counterup.min.js") }}"></script>
-            <script src="{{ asset("OwlCarousel2-2.3.4/dist/owl.carousel.js") }}"></script> 
+            <script src="{{ asset("assets/Counter-Up-master/jquery.counterup.min.js") }}"></script>
+            <script src="{{ asset("assets/OwlCarousel2-2.3.4/dist/owl.carousel.js") }}"></script> 
             @stack('scripts')
 
         </body>
