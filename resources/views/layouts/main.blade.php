@@ -25,8 +25,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 <body>
 
- <!-- Begining of top navpart container -->
- <div class="container-fluid" id="top-NavPart">
+   <!-- Begining of top navpart container -->
+   <div class="container-fluid" id="top-NavPart">
     <div class="container">
         <div class="row" id="top-NavPartRow">
 
@@ -164,6 +164,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
             <script src="{{ asset("js/app.js") }}"></script>
+            <script src="Counter-Up-master/jquery.counterup.min.js"></script>
+            <script src="OwlCarousel2-2.3.4/dist/owl.carousel.js" type="text/javascript"></script> 
             @stack('scripts')
 
         </body>
