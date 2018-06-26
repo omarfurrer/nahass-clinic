@@ -427,7 +427,7 @@ body {
 	opacity: 1;
 	background-attachment: scroll;
 	object-fit: cover;
-
+	color: #FFF;
 }
 
 #testiHeaderRow {
@@ -439,12 +439,9 @@ body {
 	border-radius: 50%;
 }
 
-#carouselExampleControls {
-	color: white;
-}
 
 #testiContainer .carousel-indicators {
-	bottom: -100px;
+	bottom: 40px;
 }
 
 #svgRow {

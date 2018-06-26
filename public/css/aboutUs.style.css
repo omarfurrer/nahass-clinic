@@ -5,7 +5,7 @@
 		rgba(3, 169, 244, 0.8), 
 		rgba(3, 169, 244, 0.8)
 		), 
-	url(images/home-bkg002.jpg) no-repeat center center;
+	url(../images/home-bkg002.jpg) no-repeat center center;
 	color: #FFF;
 	max-height: 100%;
 }

@@ -1,8 +1,13 @@
+ @extends('layouts.main')
+ @section('title', 'About Us')
+
+ @section('content')
+
  <!-- Begining of pagesCommonHeaderContainer -->
 
  <div class="container-fluid" id="pagesCommonHeaderContainer">
     <div class="container">
-     <div class="row">
+       <div class="row">
         <div class="col-md-8 col-xs-8">
             <h4>About us</h4>
         </div> 
@@ -129,7 +134,7 @@
             </div>
         </div>
         <div class="item">
-           <div class="card">
+         <div class="card">
             <img class="card-img-top" src="images/Mr-Murat-Bulut-001-370x260.jpg" alt="Card image cap">
             <div class="card-body text-center cardBody">
                 <h5 class="card-title cardTitle">Dr. Murat Bulut</h5>
@@ -156,7 +161,7 @@
 <div class="container-fluid" id="testiContainer">
 
     <div class="row">
-        <svg class="uvc-x-large-circle" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#FFF" width="100%" height="60" viewBox="0 0 4.66666 0.333331" preserveAspectRatio="none" style="height: 60px;"><path class="fil1" d="M4.66666 0l0 7.87402e-006 -3.93701e-006 0c0,0.0920315 -1.04489,0.166665 -2.33333,0.166665 -1.28844,0 -2.33333,-0.0746339 -2.33333,-0.166665l-3.93701e-006 0 0 -7.87402e-006 4.66666 0z"></path></svg> 
+        <svg class="uvc-x-large-circle" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#f5f8fa" width="100%" height="60" viewBox="0 0 4.66666 0.333331" preserveAspectRatio="none" style="height: 60px;"><path class="fil1" d="M4.66666 0l0 7.87402e-006 -3.93701e-006 0c0,0.0920315 -1.04489,0.166665 -2.33333,0.166665 -1.28844,0 -2.33333,-0.0746339 -2.33333,-0.166665l-3.93701e-006 0 0 -7.87402e-006 4.66666 0z"></path></svg> 
     </div>
 
     <div class="row text-center" id="testiHeaderRow">
@@ -241,7 +246,7 @@
         </div>
 
         <div class="row" id="svgRow">
-            <svg class="uvc-x-large-circle" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#FFF" width="100%" height="60" viewBox="0 0 4.66666 0.333331" preserveAspectRatio="none" style="height: 60px; transform: rotate(180deg);"><path class="fil1" d="M4.66666 0l0 7.87402e-006 -3.93701e-006 0c0,0.0920315 -1.04489,0.166665 -2.33333,0.166665 -1.28844,0 -2.33333,-0.0746339 -2.33333,-0.166665l-3.93701e-006 0 0 -7.87402e-006 4.66666 0z"></path></svg> 
+            <svg class="uvc-x-large-circle" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="#f5f8fa" width="100%" height="60" viewBox="0 0 4.66666 0.333331" preserveAspectRatio="none" style="height: 60px; transform: rotate(180deg);"><path class="fil1" d="M4.66666 0l0 7.87402e-006 -3.93701e-006 0c0,0.0920315 -1.04489,0.166665 -2.33333,0.166665 -1.28844,0 -2.33333,-0.0746339 -2.33333,-0.166665l-3.93701e-006 0 0 -7.87402e-006 4.66666 0z"></path></svg> 
 
         </div>
     </div>
@@ -252,28 +257,28 @@
 <div class="container mt-20" id="counterContainer">
     <div class="row text-center">
         <div class="col-md-3">
-            <img src="images/counterContainer1.png" id="certificateImg">
+            <img src="../images/counterContainer1.png" id="certificateImg">
             <div>
                 <span class="counter">3</span>
             </div>
             <p>Professional Dentists</p>
         </div> 
         <div class="col-md-3">
-            <img src="images/counterContainer2.png" id="certificateImg">
+            <img src="../images/counterContainer2.png" id="certificateImg">
             <div>
                 <span class="counter">3</span>
             </div>
             <p>Brighter Smiles</p>
         </div> 
         <div class="col-md-3">
-            <img src="images/counterContainer3.png" id="certificateImg">
+            <img src="../images/counterContainer3.png" id="certificateImg">
             <div>
                 <span class="counter">3</span>
             </div>
             <p>Patients</p>
         </div> 
         <div class="col-md-3">
-            <img src="images/counterContainer4.png" id="certificateImg">
+            <img src="../images/counterContainer4.png" id="certificateImg">
             <div>
                 <span class="counter">3</span>
             </div>
@@ -283,7 +288,7 @@
 </div>
 <!--  End of Counter Container -->
 
-
+@endsection
 
 
 
@@ -292,31 +297,32 @@
 
   $(function() {
 
-     $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:3
-            }
+   $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
         }
-    });
+    }
+});
 
 
-     $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
+   $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
 
- });
+});
 </script>
 
 
 @endpush
+
