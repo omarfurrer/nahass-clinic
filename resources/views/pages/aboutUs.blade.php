@@ -7,7 +7,7 @@
 
  <div class="container-fluid" id="pagesCommonHeaderContainer">
     <div class="container">
-       <div class="row">
+     <div class="row">
         <div class="col-md-8 col-xs-8">
             <h4>About us</h4>
         </div> 
@@ -134,7 +134,7 @@
             </div>
         </div>
         <div class="item">
-         <div class="card">
+           <div class="card">
             <img class="card-img-top" src="images/Mr-Murat-Bulut-001-370x260.jpg" alt="Card image cap">
             <div class="card-body text-center cardBody">
                 <h5 class="card-title cardTitle">Dr. Murat Bulut</h5>
@@ -288,6 +288,29 @@
 </div>
 <!--  End of Counter Container -->
 
+<!-- Begining of Blue strip Container -->
+
+<div class=" containter-fluid bluestrip">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1">
+                <div>
+                    <img src="images/teathwhitening.png"> 
+                </div>
+            </div>
+            <div class="col-md-7">
+                <h2>
+                Make Your Dream Smile A Reality!</h2>
+                <p>With our professional and talented team using our advanced equipment we guarantee your dream smile to be real</p>
+            </div>
+            <div class="col-md-4 btnCol">
+                <button class="btn btn-outline-primary">Book Apointment</button>
+            </div>
+        </div>
+    </div>
+</div> 
+ 
+<!--  End of Blue strip container -->
 @endsection
 
 
@@ -297,30 +320,30 @@
 
   $(function() {
 
-   $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:3
+     $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:3
+            }
         }
-    }
-});
+    });
 
 
-   $('.counter').counterUp({
-    delay: 10,
-    time: 1000
-});
+     $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
 
-});
+ });
 </script>
 
 

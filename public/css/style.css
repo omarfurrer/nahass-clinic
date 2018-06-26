@@ -249,7 +249,6 @@ body {
 #WelcomeContainerParagraph {
 	line-height: 1.5;
 	text-align: justify;
-	margin-top: 20px;
 }
 
 .learnMoreBtn {
@@ -529,6 +528,9 @@ body {
 
 /*Mobile Phones*/
 @media only screen and (min-width: 370px) and (max-width: 1200px) {
+
+	#WelcomeContainerParagraph {
+	margin-top: 15px; }
 
 	#top-NavPart {
 		display: none;

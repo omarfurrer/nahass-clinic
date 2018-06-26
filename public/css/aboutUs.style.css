@@ -55,6 +55,48 @@
 
 #counterContainer p {
 	font-size: 120%;
+} 
+
+
+/*Blue Strip styles*/
+
+.bluestrip {
+	background-color: rgb(3, 169, 244);
+	color: white;
+}
+
+.bluestrip img {
+	width: 100%;
+}
+
+.bluestrip img:hover {
+	-webkit-animation: bounce 1s;
+	animation: fadeIn 2s;
+}
+
+.bluestrip .row {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.bluestrip .btn-outline-primary {
+	border:2px solid white;
+	color: #FFF;
+	font-size: 16px;
+	border-radius: 0;
+	padding: 15px;
+	
+}
+
+.bluestrip .btn-outline-primary:hover {
+	background-color: #FFF;
+	color: black;
+	
+}
+
+
+.btnCol {
+	text-align: right;
 }
 
 /*MEDIA QUERIES*/
@@ -71,6 +113,19 @@
 		text-align: center !important;
 		padding-top: 30px;
 		padding-bottom: 20px;
+	}
+
+
+	.bluestrip img {
+		width: 50%;
+	}
+
+	.bluestrip  {
+		text-align: center;
+	}
+
+	.btnCol {
+		text-align: center;
 	}
 
 
