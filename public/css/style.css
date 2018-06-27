@@ -4,6 +4,7 @@ body {
 	font-family: 'Hind', sans-serif;
 	color: #797878;
 	line-height: 1.65;
+	background-color: #FFF;
 }
 
 /*Custom style classes*/
@@ -534,6 +535,10 @@ body {
 
 	#top-NavPart {
 		display: none;
+	}
+
+	.carousel-inner img {
+		height: 240px;
 	}
 
 	#mobileOnly {

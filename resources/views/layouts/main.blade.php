@@ -16,21 +16,21 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     <title>{{ config('app.name') }} - @yield('title')</title>
 
-<link rel="stylesheet" href="{{ asset('css/app.css') }}">
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
-<link rel="stylesheet" href="{{ asset('css/aboutUs.style.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/font-awesome-4.7.0/css/font-awesome.min.css') }}">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-<link rel="stylesheet" href="{{ asset('assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/aboutUs.style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css') }}">
 
 
 </head>
 
 <body>
 
-   <!-- Begining of top navpart container -->
-   <div class="container-fluid" id="top-NavPart">
+ <!-- Begining of top navpart container -->
+ <div class="container-fluid" id="top-NavPart">
     <div class="container">
         <div class="row" id="top-NavPartRow">
 
@@ -67,17 +67,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Begining of Navbar Container -->
             <div class="container" id="navbarContainer">
                 <nav class="navbar navbar-expand-lg mainNav fixed">
-                    <a class="navbar-brand" id="websiteTitle" href="#">Al Nahass Clinic</a>
+                    <a class="navbar-brand" id="websiteTitle" href="{{ url('/')}}">Al Nahass Clinic</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="fa fa-bars"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" href="{{ url("home") }}">Home <span class="sr-only">(current)</span></a>
+                                <a class="{{ Request::is('/') ? 'active' : '' }}" href="{{ url("/") }}">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url("about-us") }}">About Us</a>
+                                <a class="{{ Request::is('about-us') ? 'active' : '' }}" href="{{ url('about-us') }}">About Us</a>
 
                             </li>
                             <li class="nav-item">
