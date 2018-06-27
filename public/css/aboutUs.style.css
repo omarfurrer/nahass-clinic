@@ -44,13 +44,28 @@
 
 }
 
+
+/*Counter Container styles*/
+
+#counterContainer {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
 #counterContainer img {
-	width: 20%;
-	height: 30%;
+	width: 30%;
+	height: 40%;
+}
+
+#counterContainer img:hover {
+	-webkit-animation: bounce 1s;
+	animation: fadeIn 4s;
 }
 
 #counterContainer span {
 	font-size: 45px;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
 }
 
 #counterContainer p {
