@@ -81,8 +81,8 @@
 
 	<div class="row text-center mt-50" id="ourServicesHeaderRow">
 		<div class="col-md-12">
-			<h3>Our Services</h3>
-			<p>Professional and highly trained!</p>
+			<h3>Our Dental Services</h3>
+			<p>Quality and affordable dentistry</p>
 			<div class="blueLine">
 			</div>
 		</div>
