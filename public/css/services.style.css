@@ -45,12 +45,14 @@
 	#servicesOwlCarouselContainer .card {
 		margin-left: 0;
 		padding-left: 0;
+		max-width: 100%;
 	}
 
 	#availableServicesContainer .card {
 
 		max-width: 100%;
 	} 
+
 
 }
 
