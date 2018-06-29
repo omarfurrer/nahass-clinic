@@ -1,0 +1,57 @@
+.dentalStudioCarousel .carouselBox h5 {
+	font-size: 40px;
+	padding-top: 12%;
+}
+
+.dentalStudioCarousel .carouselBox {
+	max-width: 45%;
+	min-height: 45%;
+	margin-bottom: 10%;
+}
+
+/*MEDIA QUERIES*/
+
+/*Most mobile phones*/
+
+@media only screen and (min-width: 319px) and (max-width: 764px) {
+
+	.dentalStudioCarousel .carouselBox {
+		max-width: 60%;
+		min-height: 45%;
+		margin-bottom: 10%;
+	}
+
+	.dentalStudioCarousel .carouselBox h5 {
+		font-size: 30px;
+	}
+
+}
+
+/*Small screen mobile phones*/
+
+@media only screen and (min-width: 319px) and (max-width: 374px) {
+
+
+	.dentalStudioCarousel .carouselBox h5 {
+		font-size: 18px;
+	}
+
+}
+
+/*Tablets and Ipads*/
+@media only screen and (min-width: 765px) and (max-width: 1023px) {
+
+	.dentalStudioCarousel .carouselBox h5 {
+		font-size: 32px;
+	}
+	
+}
+
+/*Landscape Ipad*/
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+
+	.dentalStudioCarousel .carouselBox  {
+		margin-bottom: 5%;
+	}
+	
+}
