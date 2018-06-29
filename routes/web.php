@@ -22,3 +22,7 @@ Route::get('/about-us', function () {
 Route::get('/services', function () {
     return view('pages.services');
 });
+
+Route::get('/dentalStudio', function () {
+    return view('pages.dentalStudio');
+});
