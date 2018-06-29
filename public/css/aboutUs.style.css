@@ -17,6 +17,14 @@
 
 }
 
+#pagesCommonHeaderContainer a:hover {
+
+	text-decoration: none;
+	-webkit-animation: bounce 1s;
+	animation: fadeIn 4s;
+
+}
+
 #pagesCommonHeaderContainer p {
 
 	font-size: 13px;

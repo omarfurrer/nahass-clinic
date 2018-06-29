@@ -111,6 +111,7 @@ body {
 .mainNav a:hover {
 	color: #03A9F4;
 	opacity: 0.6;
+	text-decoration: none;
 }
 
 #mobileOnly {
