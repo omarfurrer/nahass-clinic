@@ -18,6 +18,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/dentalStudio.style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/aboutUs.style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/services.style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/font-awesome-4.7.0/css/font-awesome.min.css') }}">
@@ -30,8 +31,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 <body>
 
- <!-- Begining of top navpart container -->
- <div class="container-fluid" id="top-NavPart">
+   <!-- Begining of top navpart container -->
+   <div class="container-fluid" id="top-NavPart">
     <div class="container">
         <div class="row" id="top-NavPartRow">
 
@@ -85,7 +86,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 <a class="{{ Request::is('services') ? 'active' : '' }}" href="{{ url('services') }}">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Dental Studio</a>
+                                <a class="{{ Request::is('dentalStudio') ? 'active' : '' }}" href="{{url('dentalStudio')}}">Dental Studio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Gallery</a>
