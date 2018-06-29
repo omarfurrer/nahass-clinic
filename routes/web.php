@@ -26,3 +26,7 @@ Route::get('/services', function () {
 Route::get('/dentalStudio', function () {
     return view('pages.dentalStudio');
 });
+
+Route::get('/gallery', function () {
+    return view('pages.gallery');
+});
