@@ -30,3 +30,7 @@ Route::get('/dentalStudio', function () {
 Route::get('/gallery', function () {
     return view('pages.gallery');
 });
+
+Route::get('/contactUs', function () {
+    return view('pages.contactUs');
+});
