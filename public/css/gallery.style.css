@@ -1,0 +1,26 @@
+#galleryCarouselIndicators li {
+	padding: 7px;
+	width: 0%;
+	border-radius: 50%;
+	border: 1px solid black;
+	bottom:-50px;
+	background-color: grey;
+}
+
+#galleryCarouselIndicators .active {
+	background-color: black;
+}
+
+#carouselExampleIndicators img {
+	border:1px solid #cac4c4;
+	padding: 3px;
+}
+
+#galleryCarouselContainer h3 {
+	color: black;
+}
+
+
+#carouselExampleIndicators {
+	margin-bottom: 50px;
+}
