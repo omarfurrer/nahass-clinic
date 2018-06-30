@@ -11,16 +11,16 @@
 	background-color: black;
 }
 
-#carouselExampleIndicators img {
+.galleryCarousel img {
 	border:1px solid #cac4c4;
 	padding: 3px;
 }
 
-#galleryCarouselContainer h3 {
+.galleryCarousel h3 {
 	color: black;
 }
 
 
-#carouselExampleIndicators {
+.galleryCarousel {
 	margin-bottom: 50px;
 }
