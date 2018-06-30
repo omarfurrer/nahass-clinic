@@ -21,6 +21,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="{{ asset('css/dentalStudio.style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/aboutUs.style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/services.style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/gallery.style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/font-awesome-4.7.0/css/font-awesome.min.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link rel="stylesheet" href="{{ asset('assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css') }}">
@@ -86,13 +87,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 <a class="{{ Request::is('services') ? 'active' : '' }}" href="{{ url('services') }}">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="{{ Request::is('dentalStudio') ? 'active' : '' }}" href="{{url('dentalStudio')}}">Dental Studio</a>
+                                <a class="{{ Request::is('dentalStudio') ? 'active' : '' }}" href="{{ url('dentalStudio') }}">Dental Studio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Gallery</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">News</a>
+                                <a class="{{ Request::is('gallery') ? 'active' : '' }}" href="{{ url('gallery') }}">Gallery</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact Us</a>
