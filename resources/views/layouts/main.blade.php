@@ -22,6 +22,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="{{ asset('css/aboutUs.style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/services.style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/gallery.style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/contactUs.style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/font-awesome-4.7.0/css/font-awesome.min.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link rel="stylesheet" href="{{ asset('assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css') }}">
@@ -93,7 +94,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 <a class="{{ Request::is('gallery') ? 'active' : '' }}" href="{{ url('gallery') }}">Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
+                                <a class="{{ Request::is('contactUs') ? 'active' : '' }}" href="{{ url('contactUs') }}">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -172,6 +173,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
             <script src="{{ asset("assets/Counter-Up-master/jquery.counterup.min.js") }}"></script>
             <script src="{{ asset("assets/OwlCarousel2-2.3.4/dist/owl.carousel.js") }}"></script> 
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASSOYNPwPr7dcdqPCgkgnEQeeWst35GeQ&callback=initMap"></script>
             @stack('scripts')
 
         </body>
