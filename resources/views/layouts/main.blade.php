@@ -46,7 +46,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
                 <div class="col-md-3 col-sm-3 col-xs-12 top-NavPart-contact">
                     <p class="top-NavPart-contactP">
-                        <i class="fa fa-envelope-open"></i> <a href="#">info@whitesmileclinic-eg.com</a>  </p>
+                        <i class="fa fa-envelope-open"></i> <a href="mailto:info@whitesmileclinic-eg.com">info@whitesmileclinic-eg.com</a>  </p>
                     </div>
 
                     <div class="col-md-3 col-sm-3 col-xs-12 top-NavPart-contact">
@@ -151,6 +151,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <a href="#"><i class="fa fa-twitter twIcon"></i></a>
                         <a href="#"><i class="fa fa-instagram ig-icon"></i></a>
                         <a href="#"><i class="fa fa-youtube ytIcon"></i></a>
+                        <a href="#"><i class="fa fa-linkedin liIcon"></i></a>
                     </div> 
                 </div>
             </div>

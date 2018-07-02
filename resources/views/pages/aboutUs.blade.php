@@ -304,7 +304,7 @@
                 <p>With our professional and talented team using our advanced equipment we guarantee your dream smile to be real</p>
             </div>
             <div class="col-md-4 btnCol">
-                <button class="btn btn-outline-primary">Book Apointment</button>
+                <a class="btn btn-outline-primary" href="{{url('/contactUs')}}">Book Apointment</a>
             </div>
         </div>
     </div>

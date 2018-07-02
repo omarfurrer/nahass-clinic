@@ -3,11 +3,11 @@
 
 @section('content')
 <!-- Begining of Image Slider -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="homePageMainCarousel" class="carousel slide" data-ride="carousel">
 	<ol class="carousel-indicators">
-		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		<li data-target="#homePageMainCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#homePageMainCarousel" data-slide-to="1"></li>
+		<li data-target="#homePageMainCarousel" data-slide-to="2"></li>
 	</ol>
 	<div class="carousel-inner">
 		<div class="carousel-item active">
@@ -55,13 +55,13 @@
 				</div>
 			</div>
 		</div>
-		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		<a class="carousel-control-prev" href="#homePageMainCarousel" role="button" data-slide="prev">
 			<div class="indiBg">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
 			</div>
 		</a>
-		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		<a class="carousel-control-next" href="#homePageMainCarousel" role="button" data-slide="next">
 			<div class="indiBg">
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
@@ -114,7 +114,7 @@
 		</div>  
 		<div class="col-md-6">
 			<p id="WelcomeContainerParagraph">With our specialties as well as general dentistry available in the one location, our multi-disciplinary team collaborate together to make treatment recommendations that facilitate quality patient care. Seamless integration of all systems and practice within the centre enables each specialist to have instant access to treatment plans, laboratory results, 3D imagery and patient files, allowing for an evidence based best practice model of operation.</p>
-			<button class="btn learnMoreBtn">Learn More</button>
+			<a class="btn learnMoreBtn" href="{{url('services')}}">Learn More</a>
 		</div>  
 	</div>
 </div>
@@ -262,11 +262,11 @@
         </div>
     </div>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="testicarouselHome" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#testicarouselHome" data-slide-to="0" class="active"></li>
+            <li data-target="#testicarouselHome" data-slide-to="1"></li>
+            <li data-target="#testicarouselHome" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -323,11 +323,11 @@
                     </div>  
                 </div>  
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#testicarouselHome" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#testicarouselHome" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
@@ -356,7 +356,7 @@
 			<div class="card">
 				<img class="card-img-top" src="images/Dr.-Israa-Mohamed-Ibraheem-370x260.jpg" alt="Card image cap">
 				<div class="card-body text-center cardBody">
-					<h5 class="card-title cardTitle">Dr. Israa Mohamed Ibrahim</h5>
+					<h5 class="card-title cardTitle">Dr. Israa Ibrahim</h5>
 					<p class="card-text cardText">Dental Specialist.</p>
 				</div>
 			</div>
@@ -389,7 +389,7 @@
 		<div class="col-md-12">
 			<h4>Make your <b>#dream_smile</b> a reality!</h4>
 			<p><small>Call us or book an appointment today!</small></p>
-			<button class="btn">Book an appointment</button>
+			<a class="btn" href="{{url('/contactUs')}}">Book an appointment</a>
 
 		</div>
 	</div>
